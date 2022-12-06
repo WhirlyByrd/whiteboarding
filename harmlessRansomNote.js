@@ -1,5 +1,5 @@
 /*
-The function will take in two parameters (noteText, magazine).
+The function will take in two parameters (noteText, magazineText).
 The Note may read like: 'this is a secret note for you from a secret admirer'
 The Magazine may contain: 'puerto rico is a great place you must hike far from town to find a secret waterfall that i am an admirer of but note that it is not as hard as it seems this is my advice for you'
 
@@ -47,3 +47,5 @@ const harmlessRansomNote = (noteText, magazineText) => {
 }
 
 harmlessRansomNote('this is a secret note for you from a secret admirer', 'puerto rico is a great place of great wonder and excitement it has many secret waterfall locations that i am an admirer of you must hike far from town to find a secret waterfall that i am an admirer of but note that it is not as hard as it seems this is my advice for you')
+
+// time complexity is Linear O(n) we have two loops but they are not nested
