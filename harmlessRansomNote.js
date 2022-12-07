@@ -17,7 +17,7 @@ const harmlessRansomNote = (noteText, magazineText) => {
     //create a magazine object that will contain each word and their quantity
     const magObj = {};
     
-    //use a for each loop on the magArr that passes a functio for each word in the array that will place each word into the magazine object and keep count of each time the word is used
+    //use a for each loop on the magArr that passes a function for each word in the array that will place each word into the magazine object and keep count of each time the word is used
 
     magArr.forEach(element => {
         //if the word is not in the magObj then set it to 0
